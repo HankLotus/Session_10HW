@@ -4,7 +4,7 @@ import time
 topping_price = 5,5,6,7,8,10    # giá từng loại topping
 topping_list = 'Trân châu trắng (5K)', 'Trân châu đen (5K)', 'Thạch rau câu (6K)',  'Vải (7K)', 'Nhãn (8K)', 'Đào (10K)'
 
-st.title('Trà sữa CoTAI')
+st.title('Trà sữa COTAI')
 size = st.radio('Kích cỡ', ('Nhỏ (30K)', 'Vừa (40K)', 'Lớn (50K)'), horizontal=True)
 st.write('Thêm')
 col1, col2, col3, col4 = st.columns(4)
